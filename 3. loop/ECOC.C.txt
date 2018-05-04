@@ -1,0 +1,25 @@
+
+	
+			void main( )
+			{
+				int num , i , ec , oc;
+			
+				ec = oc = 0;
+				clrscr();
+
+				printf("Enter 10 numbers \n");
+
+				for(i=1; i<=10; i++)
+				{
+					scanf("%d", &num);
+					if( num % 2 == 0 ) 
+								ec++;
+					else
+								oc++;
+				}
+			
+printf("Count of even and odd is %d and %d", ec , oc );
+				getch();
+			}
+
+
